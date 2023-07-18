@@ -32,7 +32,7 @@ if __name__ == "__main__":
     # Необхідно вивести на екран назву місяця.
     # Наприклад, якщо 1, то на екрані напис "січень", 2 — "лютий" і т.д.
 
-    # Дані від користувача:
+    # Дані від користувача
 
      # number_of_mounth = input('Введіть порядковий номер дня тижня від 1 до 12:')
 
@@ -72,8 +72,41 @@ if __name__ == "__main__":
     # якщо менше нуля — "Number is negative", якщо дорівнює нулю — "Number is equal to zero".
 
 
+    #Дані від користувача
+
+    #number_one = int(input('Введіть число: '))
+
+    #Розв'язок задачі
+
+    # if number_one > 0:
+    #     print("Number is positive")
+    # elif number_one < 0:
+    #     print("Number is negative")
+    # elif number_one == 0:
+    #     print("Number is equel to zero")
+    # else:
+    #     print("Ви ввели некоректні дані")
+
+    #Завдання 4
+    #Користувач вводить два числа.
+    #Необхідно визначити, чи ці числа є рівними і, якщо ні, вивести їх на екран у порядку зростання.
 
 
+    # Дані від користувача
+
+    # number_one = int(input('Введіть число: '))
+    # number_two = int(input('Введіть число: '))
+
+    #Розв'язок задачі
+
+    # if number_one == number_two:
+    #     print("Ці числа є рівними")
+    # elif number_one != number_two:
+    #     bigger_number = max(number_one,number_two)
+    #     smaller_number = min(number_one,number_two)
+    #     print(smaller_number,bigger_number)
+    # else:
+    #     print("Ви ввели некоректні дані")
 
 
 
